@@ -1,0 +1,7 @@
+parsing 功能：
+1.是对XPath进行封装，为Mybatis初始化时解析，mybatis-config.xml配置文件映射文件提供支持
+2.是出处理动态SQL语句中占位符提供支持
+
+XpathParser类：
+XpathParser 提供类一系列的#eval*方法，用于获得Boolean，Short，Integer，Long，Float，Double，String，Node类型的元素或节点的只。
+当然，虽然方法很多，但是都是基于 evaluate(String expression, Object root, QName returnType)
